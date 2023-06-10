@@ -1,0 +1,33 @@
+.main-news {
+    margin-top: 8%;
+    width: 75%;
+    height: 412px;
+    margin-bottom: 10%;
+    background: white;
+}
+
+
+.card-img-overlay {
+    background-color: black;
+    opacity: .5;
+    position: absolute;
+    top: 65%;
+}
+.main-news img {
+    border-radius: 0;
+    width: 100%;
+    /* margin-bottom: 10px; */
+    height: auto;
+}
+.shadow {
+    box-shadow: none !important;
+}
+
+.card{
+    position: relative;
+    right: -22%;
+}
+
+.title p{
+    text-align: right;
+}

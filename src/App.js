@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import TopNavbar from './components/layout/header/TopNavbar';
+import Footer from './components/layout/footer/footer';
+import News from './components/homepage/News';
+import './App.css'; 
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <TopNavbar />
+      <News />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,37 @@
+.main-news {
+    direction: rtl;
+    margin-top: 2%;
+}
+
+.first-news{
+    direction: rtl;
+}
+
+.first-news  img{
+    width: 100%;
+}
+.card{
+    position: relative;
+    right: -22%;
+}
+
+.title p{
+    text-align: right;
+}
+
+.Lead_font h1{
+    opacity: .5;
+    color: white;
+    position: relative;
+    top: -95px;
+    background: black;
+}
+.stylespan span{
+    color:gray;
+  }
+
+  @media (max-width: 480px){
+    .Lead_font h1{
+        top: -75px;
+    }
+  }
